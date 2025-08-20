@@ -12,6 +12,7 @@ import com.esfe.Asistencia.Servicios.Interfaces.IDocenteGrupoService;
 
 @Service
 public class DocenteGrupoService  implements IDocenteGrupoService {
+    
      @Autowired
     private IDocenteGrupoRepository docenteGrupoRepository;
     @Override
